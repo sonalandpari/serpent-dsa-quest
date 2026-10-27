@@ -11,6 +11,6 @@ class Solution:
             elif sum>target:
                 j-=1
             
-        return i,j
+        return [i,j]
 
 print(Solution().twoSum([2,7,11,15], 9))
